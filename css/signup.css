@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    
+}
+
+.signup{
+    height: 80vh;
+    width: 70vw;
+    background-color: white;
+    display: flex;
+}
+
+input{
+    outline: none;
+    border: 2px lightgray solid;
+    margin-bottom: 3vh;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid black;
+    height: 4vh;
+    width: 18vw;
+}
+
+input:focus{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #198754;
+}
+
+label{
+    font-family: 'Poppins', sans-serif; 
+}
+
+#email{
+    
+}
+
+#password{
+    
+}
+
+#sign-up:hover{
+    background-color: white;
+    color: black;
+}
+

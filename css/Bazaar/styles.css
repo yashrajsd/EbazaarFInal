@@ -1,0 +1,25 @@
+.clouds-animation{
+    animation: clouds 70s infinite alternate;
+}
+@keyframes clouds {
+    0%{
+        left: -10vh;
+    }
+    100%{
+        left: 200vh;
+    }
+}
+
+.clouds-animation-2{
+    animation: cloud-2 70s infinite alternate;
+}
+
+@keyframes cloud-2 {
+    0%{
+        right: -20vh;
+    }
+    100%{
+        right: 200vh;
+    }
+}
+
